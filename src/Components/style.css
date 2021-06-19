@@ -1,6 +1,9 @@
-.News{
-    background-image: url("./img/people.jpg");
-    background-size: cover;
-    max-width:100vw;
-    height:100vh;
+* {
+	margin: 0;
+}
+.News {
+	background-image: url('./img/people.jpg');
+	background-size: cover;
+	max-width: 100vw;
+	height: 100vh;
 }
