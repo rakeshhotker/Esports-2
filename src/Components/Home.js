@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
 	Container: {
 		backgroundImage: `url(${rain})`,
 		backgroundSize: 'cover',
-		maxWidth: '100vw',
+		width: '100%',
 		height: '100vh',
 	},
 }));
@@ -22,11 +22,32 @@ function Home() {
 	return (
 		<Paper className={classes.Container}>
 			{
-				<div className='Container'>
-					<div id='raincontainer' className='rain-container'>
-						<div className='drop'>
-							<div className='stem'>
-								<div className='splash'></div>
+				//this is a container wrapping around multiple rain drops
+				<div className='raincontainerWrap'>
+					<div className='Container'>
+						<div id='raincontainer' className='rain-container'>
+							<div className='drop'>
+								<div className='stem'>
+									<div className='splash'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='Container'>
+						<div id='raincontainer' className='rain-container'>
+							<div className='drop'>
+								<div className='stem'>
+									<div className='splash'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='Container'>
+						<div id='raincontainer' className='rain-container'>
+							<div className='drop'>
+								<div className='stem'>
+									<div className='splash'></div>
+								</div>
 							</div>
 						</div>
 					</div>

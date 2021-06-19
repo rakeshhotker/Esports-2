@@ -8,7 +8,12 @@
 	max-width: 100vw;
 	height: 100vh;
 }
-
+/*this is the styling for multiple rain drops*/
+.raincontainerWrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 .Container {
 	background-image: url('./img/rain.jpg');
 	background-size: cover;
