@@ -7,6 +7,7 @@ import Events from './Components/Events';
 import './Components/style.css';
 
 function App() {
+<<<<<<< HEAD
 	return (
 		<div className='App'>
 			<Navbar />
@@ -17,5 +18,18 @@ function App() {
 			<Contact />
 		</div>
 	);
+=======
+  return (
+    <div className="App">
+    <Navbar/>
+
+    <Home/>
+    <Events/>
+    <News/>
+    <Login/>
+    <Contact/>
+    </div>
+  );
+>>>>>>> 553dd0481c2528ece11e854ee48e8ffe5259d438
 }
 export default App;
