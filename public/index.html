@@ -25,6 +25,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
@@ -43,10 +44,31 @@
   <script type="text/javascript" src="vanilla-tilt.js"></script>
   <script type="text/javascript">
     VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 40,
+      max: 30,
       speed: 800,
       // glare:true,
       // "max-glare":1
     });
   </script>
+  <script>
+    // RAIN DROP FUNCTION 
+    function show() 
+    {
+       $('.main').empty();
+       var increment = 0;
+       var drops = "";
+       var backDrops = "";
+
+       while (increment < 100) {
+           var x = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
+           var y = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+           increment += y;
+           drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (y + y - 1 + 100) + '%; animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"><div class="stem" style="animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"></div><div class="splat" style="animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"></div></div>';
+           backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (y + y - 1 + 100) + '%; animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"><div class="stem" style="animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"></div><div class="splat" style="animation-delay: 0.' + x + 's; animation-duration: 0.5' + x + 's;"></div></div>';
+       }
+       $('.main').append(backDrops);
+       }
+       $('body').toggleClass('splat-toggle');
+       show();
+</script>
 </html>

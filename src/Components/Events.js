@@ -13,14 +13,6 @@ const useStyles = makeStyles((theme) => ({
     height: "100vh",
 
   },
-
-// const useStyles = makeStyles((theme) => ({
-// 	Container: {
-// 		backgroundImage: `url(${watchdogs})`,
-// 		backgroundSize: 'cover',
-// 		maxWidth: '100vw',
-// 		height: '100vh',
-// 	},
 }));
 function Events() {
   const classes = useStyles()

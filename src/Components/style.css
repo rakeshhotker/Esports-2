@@ -2,12 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-/* .News{
-    background-image: url("./img/people.jpg");
-    background-size: cover;
-    max-width:100vw;
-    height:100vh;
-} */
+
 /*THIS IS IMAGE CLIPPING */
 .hero-container {
   display: grid;
@@ -40,19 +35,6 @@
   opacity: 1;height:100vh;width:98.78vw;
 }
 
-/* HOMEPAGE */
-
-.Containerhome{
-    background-image: url("./img/rain.jpg");
-    background-size:cover;
-    height:100vh;
-        
-    }
-.drop{
-    position: absolute;
-    bottom: 100%; 
-    animation: drop 1.2s linear infinite;}
-    
     
 .News{
 	background-image: url('./img/people.jpg');
@@ -60,18 +42,29 @@
 	max-width: 100vw;
 	height: 100vh;
 }
+
+
 /*this is the styling for multiple rain drops*/
-.raincontainerWrap {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
+
 .Container {
 	background-image: url('./img/rain.jpg');
 	background-size: cover;
-	/* background-color: black; */
+	background-color: black; 
 	height: 100vh;
 }
+
+.body{
+  margin: 0;
+overflow: hidden;
+  background: linear-gradient(to bottom, #202020, #111119);
+}
+.main {
+  height: 100vh;
+  background-image: url("./img/rain.jpg");
+background-size: cover;
+  background-repeat: no-repeat;opacity: 0.9;
+}
+
 .drop {
 	position: absolute;
 	bottom: 100%;
@@ -87,18 +80,6 @@
 		rgba(255, 253, 253, 0.711)
 	);
 	animation: stem 1.2s linear infinite;
-}
-
-.splash {
-	position: absolute;
-	background-color: rgb(255, 255, 255);
-	bottom: 0%;
-	width: 15px;
-	margin-left: -8px;
-	height: 15px;
-	border-radius: 50%;
-	border-top: 2px solid rgb(255, 0, 0);
-	animation: splash 1.2s linear infinite;
 }
 
 @keyframes drop {
@@ -126,24 +107,7 @@
 		opacity: 0;
 	}
 }
-@keyframes splash {
-    0%{
-        opacity: 1;
-        transform: scale(0);
-    }
-    60%{
-        opacity: 1;
-        transform: scale(0);
-    }
-    70%{
-        opacity: 1;
-        transform: scale(1);
-    }
-    100%{
-        opacity: 0;
-        transform: scale(1.5);
-    }
-}
+
 
 /* AFTER THIS IS VANILLA TILT EFFECT */
 
@@ -247,8 +211,7 @@
     transform: translateY(100px);
     transition: 0.5s;
     opacity: 0;
-    /* background-color: blue; */
-    /* background-image: url("./img/stadium.jpg"); */
+
   }
   .container .card:hover .content {
     transform: translateY(0px);
