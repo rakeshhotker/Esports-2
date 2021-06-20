@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 /* .News{
     background-image: url("./img/people.jpg");
@@ -51,60 +51,80 @@
 .drop{
     position: absolute;
     bottom: 100%; 
-    animation: drop 1.2s linear infinite;
+    animation: drop 1.2s linear infinite;}
     
     
+.News{
+	background-image: url('./img/people.jpg');
+	background-size: contain  ;
+	max-width: 100vw;
+	height: 100vh;
 }
-.stem{
-    width: 2px;
-    height: 50px;margin-left: 10px;
-    background: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255, 253, 253, 0.711));
-    animation: stem 1.2s linear infinite;
+/*this is the styling for multiple rain drops*/
+.raincontainerWrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.Container {
+	background-image: url('./img/rain.jpg');
+	background-size: cover;
+	/* background-color: black; */
+	height: 100vh;
+}
+.drop {
+	position: absolute;
+	bottom: 100%;
+	animation: drop 1.2s linear infinite;
+}
+.stem {
+	width: 2px;
+	height: 50px;
+	margin-left: 10px;
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0),
+		rgba(255, 253, 253, 0.711)
+	);
+	animation: stem 1.2s linear infinite;
 }
 
-.splash{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    bottom: 0%;
-    width: 15px;
-    margin-left: -8px;
-    height: 15px;
-    border-radius: 50%;
-    border-top : 2px solid rgb(255, 0, 0);
-    animation: splash 1.2s linear infinite;
+.splash {
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	bottom: 0%;
+	width: 15px;
+	margin-left: -8px;
+	height: 15px;
+	border-radius: 50%;
+	border-top: 2px solid rgb(255, 0, 0);
+	animation: splash 1.2s linear infinite;
 }
-
-
 
 @keyframes drop {
-    0%{
-        transform: translateY(0vh);
-
-    }
-    75%{
-        transform: translateY(100vh);
-
-    }
-    100%{
-        transform: translateY(100vh);
-
-    }
-    
+	0% {
+		transform: translateY(0vh);
+	}
+	75% {
+		transform: translateY(100vh);
+	}
+	100% {
+		transform: translateY(100vh);
+	}
 }
 @keyframes stem {
-    0%{
-        opacity: 1;
-    }
-    60%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 0;
-    }
-    
+	0% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 @keyframes splash {
     0%{
@@ -173,51 +193,48 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(3px);
-    /* background-image: url("./img/watchdogsgroup.jpg"); */
-    background-size: cover; background-attachment: fixed;
-    opacity: .4;
+    background-position: center;
+    opacity: .75;
     
   }
  #card-one{
-    opacity:1;
+
     background-image: url("./img/fortnite.jpg");
-    background-size: 42vw;
+
+    background-size: cover;
   }
   #card-two{
-    opacity:1;
+
     background-image: url("./img/girl2.jpg");
-    background-size:27vw 25vw;
+
+    background-size: cover;
   }
   #card-three{
-    opacity:1;
+
     background-image: url("./img/cyberpunk.jpg");
-    background-size: 41vw;
+
+    background-size: cover;
   }
   #card-four{
-    opacity:1;
-    background-image: url("./img/girl1.jpg");
-    /* background-size:20vw 40vw; */
-    background-size:31vw 28vw;
 
+    background-image: url("./img/girl1.jpg");
+    background-size: cover;
   }
   #card-five{
-    opacity:1;
-    background-image: url("./img/watchdogs2.jpg");
-    background-size: 39vw;
 
+    background-image: url("./img/watchdogs2.jpg");
+    background-size: cover;
   }
   #card-six{
-    opacity:1;
+
     background-image: url("./img/swordman.jpg");
-    background-size:35vw;
+    background-size: cover;
   }
   #card-seven{
-    opacity:1;
+
     background-image: url("./img/img2.jpg");
-    background-size:43vw;
+    background-size: cover;
   }
-
-
 
 
   .container .card:hover{

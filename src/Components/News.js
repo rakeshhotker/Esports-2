@@ -6,7 +6,7 @@ import "./style.css"
 
 
 
-// IMAGE NOT SHOWING IN 2 TRIANGLES EVEN AFTER MAKING IN CSS 
+// IMAGE NOT SHOWING IN 2 TRIANGLES EVEN AFTER MAKING IN CSS
 function News() {
 
 
@@ -25,4 +25,4 @@ function News() {
     )
 }
 
-export default News
+export default News;
