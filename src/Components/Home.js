@@ -6,7 +6,7 @@ import "./style.css"
 function Home() {
 
     return (
-        <div className="Container">
+        <div className="Containerhome">
         <div id="raincontainer" className="rain-container" >
         <div className="drop">
             <div className="stem">
