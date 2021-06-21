@@ -1,25 +1,12 @@
 import React from 'react'
-import { Container, Typography, Grid, makeStyles, Paper } from "@material-ui/core"
-import watchdogs from "./img/watchdogs.jpg"
 import "vanilla-tilt";
 import "./style.css";
-import { motion } from 'framer-motion';
-const useStyles = makeStyles((theme) => ({
-  Container: {
-
-    backgroundImage: `url(${watchdogs})`,
-    backgroundSize: "cover",
-    maxWidth: "100vw",
-    height: "100vh",
-
-  },
-}));
 
 function Events() {
-  const classes = useStyles()
 
   return (
-    <div className={classes.Container}>
+// ADDED BACKGROUND IMAGE 
+    <div className="backg-events">
 
       <div className="all">
         <div className="container">
