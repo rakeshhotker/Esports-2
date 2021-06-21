@@ -15,36 +15,27 @@
   grid-area: 1 / 1 / span 1 / span 1;
 }
 
-.hero-container img {
-  
+/* .hero-container img {
   height: auto;
   object-position: center;
   object-fit: cover; 
   
-}
+} */
 
 .hero-image.top-right {
   z-index: 1;
-  opacity: 0.4;height:100vh;width:98.78vw;
-
-}
-
-.hero-image.bottom-left {
-  margin: 0;
-  padding: 0;
-  opacity: 1;height:100vh;width:98.78vw;
-}
-
-    
+  opacity: 0.4;height:100vh;
+  max-width: 100vw;
+}  
 .News{
 	background-image: url('./img/people.jpg');
-	background-size: contain  ;
+	background-size: cover;
 	max-width: 100vw;
 	height: 100vh;
 }
 
 
-/*this is the styling for multiple rain drops*/
+/*this is the styling for multiple rain drops + HOMEPAGE STYLING*/
 
 .Container {
 	background-image: url('./img/rain.jpg');
@@ -52,17 +43,25 @@
 	background-color: black; 
 	height: 100vh;
 }
-
+/* HOMEPAGE CSS */
 .body{
   margin: 0;
-overflow: hidden;
+  overflow: hidden;
   background: linear-gradient(to bottom, #202020, #111119);
 }
 .main {
   height: 100vh;
-  background-image: url("./img/rain.jpg");
+  background-image: url("./img/rain.jpg"),url("./img/adventure.jpg");
 background-size: cover;
-  background-repeat: no-repeat;opacity: 0.9;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.all-cards card1{
+  z-index: 1;
+  background-color: aqua;
+  position: relative;
+  height: 30px;
+  border: 4px solid blue;
 }
 
 .drop {
@@ -116,6 +115,7 @@ background-size: cover;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-wrap: wrap;
     
   }
   .all::before {
@@ -147,9 +147,8 @@ background-size: cover;
     width: 20vw;
     height: 40vh;
     margin: 5px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -159,10 +158,12 @@ background-size: cover;
     backdrop-filter: blur(3px);
     background-position: center;
     opacity: .75;
-    
+
+  }
+  .container .card:hover{
+    z-index: 3;
   }
  #card-one{
-
     background-image: url("./img/fortnite.jpg");
 
     background-size: cover;
@@ -180,9 +181,9 @@ background-size: cover;
     background-size: cover;
   }
   #card-four{
-
+    /* transform: matrix(1,-0.3,.5,1,0,0); */
     background-image: url("./img/girl1.jpg");
-    background-size: cover;
+    background-size: cover;overflow: hidden;
   }
   #card-five{
 
@@ -199,10 +200,9 @@ background-size: cover;
     background-image: url("./img/img2.jpg");
     background-size: cover;
   }
-
-
   .container .card:hover{
       opacity: 1;
+      
   }
   .container .card .content {
     padding: 20px;
@@ -217,14 +217,7 @@ background-size: cover;
     transform: translateY(0px);
     opacity: 1;
   }
-  /* .container .card .content h2 {
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-  } */
+
   .container .card .content h3 {
     font-size: 1em;
     color: #fff;

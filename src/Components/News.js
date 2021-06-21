@@ -16,9 +16,7 @@ function News() {
   <a>
     <img class="hero-image top-right" src={people2}/>
   </a>
-  <a>
-    <img class="hero-image bottom-left" src={people}/>
-  </a>
+  
 </div>
 
         </div>

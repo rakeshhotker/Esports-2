@@ -3,7 +3,7 @@ import { Container, Typography, Grid, makeStyles, Paper } from "@material-ui/cor
 import watchdogs from "./img/watchdogs.jpg"
 import "vanilla-tilt";
 import "./style.css";
-
+import { motion } from 'framer-motion';
 const useStyles = makeStyles((theme) => ({
   Container: {
 
@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
 
   },
 }));
+
 function Events() {
   const classes = useStyles()
 
@@ -22,7 +23,7 @@ function Events() {
 
       <div className="all">
         <div className="container">
-          <div className="card" id="card-one" data-tilt data-tilt-scale="1.1">
+          <div className="card" id="card-one" data-tilt data-tilt-scale="1.5">
             <div className="content">
               
               <h3>FORTNITE </h3>
@@ -32,7 +33,7 @@ function Events() {
             </div>
           </div>
 
-          <div className="card" id="card-two"  data-tilt data-tilt-scale="1.1">
+          <div className="card" id="card-two"  data-tilt data-tilt-scale="1.5">
             <div className="content">
               
               <h3>SUICIDE SQUAD</h3>
@@ -40,7 +41,7 @@ function Events() {
               <a href="www.google.com">Play now</a>
             </div>
           </div>
-          <div data-tilt className="card"  id="card-three"  data-tilt-scale="1.1">
+          <div data-tilt className="card"  id="card-three"  data-tilt-scale="1.5">
             <div className="content">
               
               <h3>CYBERPUNK</h3>
@@ -48,7 +49,7 @@ function Events() {
               <a href="www.google.com">Play now</a>
             </div>
           </div>
-          <div data-tilt className="card" id="card-four"  data-tilt-scale="1.1">
+          <div data-tilt className="card" id="card-four"  data-tilt-scale="1.5">
             <div className="content">
               
               <h3>IT-2</h3>
@@ -56,7 +57,7 @@ function Events() {
               <a href="www.google.com">Play now</a>
             </div>
           </div>
-          <div data-tilt className="card"  id="card-five"  data-tilt-scale="1.1">
+          <div data-tilt className="card"  id="card-five"  data-tilt-scale="1.5">
             <div className="content">
               
               <h3>WATCHDOGS-2</h3>
@@ -64,7 +65,7 @@ function Events() {
               <a href="www.google.com">Play now</a>
             </div>
           </div>
-          <div data-tilt className="card"  id="card-six"  data-tilt-scale="1.1">
+          <div data-tilt className="card"  id="card-six"  data-tilt-scale="1.5">
             <div className="content">
               
               <h3>ARTHUR U</h3>
@@ -72,7 +73,7 @@ function Events() {
               <a href="www.google.com">Play now</a>
             </div>
           </div>
-          <div data-tilt className="card"  id="card-seven"  data-tilt-scale="1.1">
+          <div data-tilt className="card"  id="card-seven"  data-tilt-scale="1.5">
             <div className="content">
               
               <h3>MARTIP</h3>
