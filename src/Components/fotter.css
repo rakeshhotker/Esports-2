@@ -9,16 +9,18 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    background: coral;
+    /* background: coral; */
 }
 footer{
     position: relative;
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5) ), url('img/img1.jpg');
-background-position: center;
-background-size: cover;
+    background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.1) ), url('img/img1.jpg');
+
+    background-position: center;
+    background-size: cover;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -38,7 +40,7 @@ footer .container .aboutus{
 }
 footer .container  h2{
     position: relative;
-    color: rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
     font-weight: 500;
     margin-bottom: 15px;
 }
