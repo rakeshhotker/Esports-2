@@ -3,8 +3,8 @@ import Login from './Components/Login';
 // import Navbar from './Components/Navbar';
 import News from './Components/News';
 import Events from './Components/Events';
-import './Components/style.css';
 
+import Fotter from './Components/Fotter';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
     <Events/>
     <News/>
     <Login/>
+    <Fotter/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import multi1 from './img/multi1.jpg';
 // MATERIAL-UI IS REMOVED = PAPER, MAKESTYLES FUNCTION REMOVED 
+import './style.css';
 function Login() {
 
 	return <div 
