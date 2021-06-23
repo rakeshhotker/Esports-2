@@ -85,128 +85,138 @@ background-position: center;
 }
 
 
-/* AFTER THIS IS VANILLA TILT EFFECT */
-.backg-events{
-  /* background-image:url("./img/watchdogsgroup.jpg"); */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/watchdogsgroup.jpg');
-
-  background-size:cover;
-  max-width:100vw;
-  height:100vh
+.backg-events {
+	background-image: url('./img/watchdogsgroup.jpg');
+	background-size: cover;
+	max-width: 100vw;
+	height: 100vh;
 }
-@media (max-width:700px) {
-  .backg-events{
-    max-width: 100%;
-
+@media (max-width: 700px) {
+	.backg-events {
+		max-width: 100%;
+	}
 }
-  
+.all {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-wrap: wrap;
 }
-  .all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    
-  }
-  .all::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .all::after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    max-width: 100vw;
-    flex-wrap: wrap;
-    z-index: 1;
-  }
-  .container .card {
-    position: relative;
-    width: 20vw;
-    height: 40vh;
-    margin: 5px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0);
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(3px);
-    background-position: center;
-    opacity: .9;
-  }
-  .container .card:hover{
-    z-index: 3;
-  }
- #card-one{
-    background-image: url("./img/fortnite.jpg");
+.all::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.all::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	max-width: 100vw;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+.container .card {
+	position: relative;
+	width: 20vw;
+	height: 40vh;
+	margin: 5px;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0);
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(3px);
+	background-position: center;
+	opacity: 0.7;
+}
+.container .card:hover {
+	z-index: 3;
+}
+/*I've made some css changes here check for them*/
+#card-one {
+	/* background-image: url('./img/fortnite.jpg'); */
 
-    background-size: cover;
-  }
-  #card-two{
+	background-size: cover;
+}
+#card-one:hover {
+	background-image: url('./img/fortnite.jpg');
+}
+#card-two {
+	/* background-image: url('./img/girl2.jpg'); */
 
-    background-image: url("./img/girl2.jpg");
+	background-size: cover;
+}
+#card-two:hover {
+	background-image: url('./img/girl2.jpg');
+}
+#card-three {
+	/* background-image: url('./img/cyberpunk.jpg'); */
 
-    background-size: cover;
-  }
-  #card-three{
-
-    background-image: url("./img/cyberpunk.jpg");
-
-    background-size: cover;
-  }
-  #card-four{
-    /* transform: matrix(1,-0.3,.5,1,0,0); */
-    background-image: url("./img/girl1.jpg");
-    background-size: cover;overflow: hidden;
-  }
-  #card-five{
-
-    background-image: url("./img/watchdogs2.jpg");
-    background-size: cover;
-  }
-  #card-six{
-
-    background-image: url("./img/swordman.jpg");
-    background-size: cover;
-  }
-  #card-seven{
-
-    background-image: url("./img/img2.jpg");
-    background-size: cover;
-  }
-  .container .card:hover{
-      opacity: 1;
-      
-  }
-  .container .card .content {
-    padding: 20px;
-    text-align: center;
-    transition: 1s;
-    transform: translateY(100px);
-    transition: 0.5s;
-    opacity: 0;
-
-  }
-  .container .card:hover .content {
-    transform: translateY(0px);
-    opacity: 1;
-  }
+	background-size: cover;
+}
+#card-three:hover {
+	background-image: url('./img/cyberpunk.jpg');
+}
+#card-four {
+	/* transform: matrix(1,-0.3,.5,1,0,0); */
+	/* background-image: url('./img/girl1.jpg'); */
+	background-size: cover;
+	overflow: hidden;
+}
+#card-four:hover {
+	background-image: url('./img/girl1.jpg');
+}
+#card-five {
+	/* background-image: url('./img/watchdogs2.jpg'); */
+	background-size: cover;
+}
+#card-five:hover {
+	background-image: url('./img/watchdogs2.jpg');
+}
+#card-six {
+	/* background-image: url('./img/swordman.jpg'); */
+	background-size: cover;
+}
+#card-six:hover {
+	background-image: url('./img/swordman.jpg');
+}
+#card-seven {
+	/* background-image: url('./img/img2.jpg'); */
+	background-size: cover;
+}
+#card-seven:hover {
+	background-image: url('./img/img2.jpg');
+}
+.container .card:hover {
+	opacity: 1;
+}
+.container .card .content {
+	padding: 20px;
+	text-align: center;
+	transition: 1s;
+	transform: translateY(100px);
+	transition: 0.5s;
+	opacity: 0;
+}
+.container .card:hover .content {
+	transform: translateY(0px);
+	opacity: 1;
+}
 
   .container .card .content h3 {
     font-size: 1em;
