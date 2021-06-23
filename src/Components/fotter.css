@@ -68,7 +68,8 @@ footer p{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: rgb(255, 255, 255);
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 0, 0,.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,11 +78,13 @@ footer p{
     border-radius: 4px;
 }
 .sci li a:hover{
-    background: rgb(0, 252, 218);
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 162, 255);
 }
 
 .sci li a .fa{
-    color: rgb(255, 5, 5);
+    /* ICONS CHANGED - VARUN */
+    color: rgb(255, 255, 255);
     font-size: 25px;
 }
 .quicklinks{
