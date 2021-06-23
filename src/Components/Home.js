@@ -6,6 +6,7 @@ import Navbar from './Navbar/Navbar';
 import Sidebar from './Sidebar/index';
 import Login from './Login';
 import News from './News';
+import Fotter from "./Fotter"
 import Events from './Events';
 function Home(){
 	const [isOpen,setIsOpen]=useState(false);
@@ -30,6 +31,7 @@ function Home(){
 					<Events />
 					<News />
 					<Login />
+					<Fotter/>
 			</>
 		);
 	}

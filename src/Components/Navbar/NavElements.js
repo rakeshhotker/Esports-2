@@ -3,6 +3,7 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS } from 'react-scroll'
 export const Nav =styled.nav`
 background:#000;
+${'' /* PLZ CHANGE NAVBAR HEIGHT TO 60PX AND BACKGROUND COLOUR RGBA(0,0,0,0.5) --varun*/}
 height:80px;
 margin-top:-80px;
 display:flex;

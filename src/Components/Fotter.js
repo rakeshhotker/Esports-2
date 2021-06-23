@@ -8,13 +8,7 @@ function Fotter() {
                 <div className="aboutus">
                     <h2>About us</h2>
                     <p>
-
-                    Hey varun,
-                    Hope you had a great start to the week. We wanted to take some time to 
-                    let you know of a great opportunity to not only learn but earn and excel
-                    while working on tech that's the talk of the town. Over the past few months,
-                    rypto has seen a meteoric rise in mainstream consciousness but with surprisingly 
-                    few opportunities for interested folks to break into it. This makes us all the more
+                    © 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
                     </p>
                     <ul className="sci">
                     <li><a href="#"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
