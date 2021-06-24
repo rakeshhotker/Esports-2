@@ -94,6 +94,7 @@ background-position: center;
 @media (max-width: 700px) {
 	.backg-events {
 		max-width: 100%;
+		height: 320vh;
 	}
 }
 .all {
@@ -240,4 +241,34 @@ background-position: center;
     font-weight: 600;
     box-shadow: 0.5px 15px rgba(0, 0, 0, 0.2);
   }
+
+  /*Responsive Cards */
+  /* For Mobile Phones */
+  @media only screen and (max-width: 480px){
+	  .container{
+		  flex-direction: column;
+	  }
+	  .container .card{
+		  width: 60vw;
+		  margin-top: 30px;
+	  }
+  }
+  
+  /* For Tablets */
+  @media only screen and (max-width: 768px) and (min-width: 480px)  {
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container .card{
+		width: 50vw;
+		margin-top: 30px;
+	}
+	
+	.backg-events{
+		height: 310vh;
+	}
+  }
+
   

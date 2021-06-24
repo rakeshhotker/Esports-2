@@ -8,7 +8,6 @@ import Login from './Login';
 import News from './News';
 import Fotter from "./Fotter"
 import Events from './Events';
-import Fotter from './Fotter';
 function Home() {
 	const [isOpen, setIsOpen] = useState(false);
 
