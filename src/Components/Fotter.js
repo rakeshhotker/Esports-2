@@ -11,22 +11,22 @@ function Fotter() {
                     © 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
                     </p>
                     <ul className="sci">
-                    <li><a href="#"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
                 <div className="quicklinks">
                 <h2>Quick Links</h2>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">PRIVACY POLICY</a></li>
-                    <li><a href="#">TERMS & CONDITION</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">HELP</a></li>
+                    <li><a href="/" >About</a></li>
+                    <li><a href="/">FAQ</a></li>
+                    <li><a href="/">PRIVACY POLICY</a></li>
+                    <li><a href="/">TERMS & CONDITION</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                    <li><a href="/" >HELP</a></li>
                 </ul>
 
                 </div>
@@ -34,15 +34,15 @@ function Fotter() {
                     <h2>Contact us</h2>
                     <ul className="info">
                     <li>
-                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-map-marker" aria-hidden="true"></i></span>
                         <span>Manhattan, located at 200 Park Avenue </span>
                     </li>
                     <li>
-                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-envelope-o" aria-hidden="true"></i></span>
                         <span>Riotgamer@gmail.com</span>
                     </li>
                     <li>
-                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-phone" aria-hidden="true"></i></span>
                         <span>+11 9878 7768 44</span>
                     </li>
 
