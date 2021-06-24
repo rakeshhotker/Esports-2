@@ -16,11 +16,11 @@ footer{
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.1) ), url('img/img1.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ), url('img/dark2.jpg');
 
     background-position: center;
     background-size: cover;
-
+/* z-index: -4; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
