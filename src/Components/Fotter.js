@@ -8,7 +8,7 @@ function Fotter() {
                 <div className="aboutus">
                     <h2>About us</h2>
                     <p>
-                    © 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
+                    &copy; 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
                     </p>
                     <ul className="sci">
                     <li><a href="#"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
@@ -24,7 +24,7 @@ function Fotter() {
                     <li><a href="#">About</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">PRIVACY POLICY</a></li>
-                    <li><a href="#">TERMS & CONDITION</a></li>
+                    <li><a href="#">TERMS &amp; CONDITION</a></li>
                     <li><a href="#">CONTACT</a></li>
                     <li><a href="#">HELP</a></li>
                 </ul>

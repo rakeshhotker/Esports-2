@@ -41,7 +41,7 @@ footer .container .aboutus{
 footer .container  h2{
     position: relative;
     color: rgb(0, 0, 0);
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 15px;
 }
 footer h2::before{
@@ -75,7 +75,7 @@ footer p{
     align-items: center;
     margin-right: 10px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 .sci li a:hover{
     /* ICONS CHANGED - VARUN */
@@ -102,7 +102,7 @@ footer p{
     display: inline-block;
 }
 .quicklinks ul li a:hover{
-    color: rgb(255, 121, 121);
+    color: rgb(184, 185, 185);
 }
 
 .contact-info{
