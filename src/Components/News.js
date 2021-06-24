@@ -8,6 +8,7 @@ function News() {
 
 
     return (
+        <div className="News">
         <div className="allnews">
         <div className="slideshow">
             <div className="slideshow-item">
@@ -56,6 +57,7 @@ function News() {
         
         
         
+        </div>
         </div>
     )
 }
