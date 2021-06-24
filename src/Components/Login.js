@@ -1,20 +1,20 @@
 import React from 'react';
-import multi1 from './img/multi1.jpg';
-// MATERIAL-UI IS REMOVED = PAPER, MAKESTYLES FUNCTION REMOVED
-import './style.css';
+import './login.css';
+import imageo from "./img/vr.jpg"
+import video1 from "./img/cosmic.mp4"
+import triangle from "./img/triangle.png"
 function Login() {
-	return (
-		<div
-			style={{
-				backgroundImage: `url(${multi1})`,
-				backgroundSize: 'cover',
-				maxWidth: '100vw',
-				height: '100vh',
-			}}
-			className='Login'
-		>
-			{/* MATERIAL UI REMOVED */}
-		</div>
+
+		return (
+
+<div className="all">
+    <video   muted autoPlay loop>
+  <source  src={video1} type="video/mp4"/></video>
+  <img className="triangle" src={triangle} alt=""/>
+  <a href="/"><div className="textp">PLAY IN VR</div></a>
+<img className="imgvr" src={imageo} alt=""/>
+
+</div>
 	);
 }
 

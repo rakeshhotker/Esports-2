@@ -11,22 +11,22 @@ function Fotter() {
                     © 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
                     </p>
                     <ul className="sci">
-                    <li><a href="#"><i className="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="/"><i className="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
                 <div className="quicklinks">
                 <h2>Quick Links</h2>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">PRIVACY POLICY</a></li>
-                    <li><a href="#">TERMS & CONDITION</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">HELP</a></li>
+                    <li><a href="/" >About</a></li>
+                    <li><a href="/">FAQ</a></li>
+                    <li><a href="/">PRIVACY POLICY</a></li>
+                    <li><a href="/">TERMS & CONDITION</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                    <li><a href="/" >HELP</a></li>
                 </ul>
 
                 </div>
