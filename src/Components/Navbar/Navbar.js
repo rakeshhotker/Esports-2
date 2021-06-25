@@ -31,17 +31,17 @@ function Navbar({toggle}) {
 				</MobileIcon>
 				<NavMenu>
 					<NavItem>
-						<NavLinks to='Events' smooth="true" duration={500} spy={true} exact='true' offset={-80} >Events</NavLinks>
+						<NavLinks to='Events' smooth="true" duration={500} spy={true} exact='true' offset={-10} >Games</NavLinks>
 					</NavItem>
 					<NavItem>
-						<NavLinks to='News' smooth="true" duration={500} spy={true} exact='true' offset={-80} >News</NavLinks>
+						<NavLinks to='News' smooth="true" duration={500} spy={true} exact='true' offset={-10} >News</NavLinks>
 					</NavItem>
 					<NavItem>
-						<NavLinks to='Login' smooth="true" duration={500} spy={true} exact='true' offset={-80} >SignUp</NavLinks>
+						<NavLinks to='Login' smooth="true" duration={500} spy={true} exact='true' offset={-10} >VR Mode</NavLinks>
 					</NavItem>
 				</NavMenu>
 				<NavBtn>
-					<NavBtnLink to="/signin" smooth="true" duration={500} spy={true} exact='true' offset={-80}>SignIn</NavBtnLink>
+					<NavBtnLink to="/signin" smooth="true" duration={500} spy={true} exact='true' offset={-10}>SignIn</NavBtnLink>
 				</NavBtn>
 			</NavbarContainer>
 		</Nav>
