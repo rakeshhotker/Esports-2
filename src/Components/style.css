@@ -7,39 +7,38 @@
 /* HOMEPAGE CSS */
 
 /* MULTIPLE IMAGE ON HOME */
-.body{
-margin: 0;
-overflow: hidden;  height: 100vh;
-background-image: url("./img/rain.jpg");
-object-fit: cover;
-background-size: cover;
-background-position: center;
+.body {
+	margin: 0;
+	overflow: auto;
+	height: 110vh; /*i've{rakesh} increased it by 10*/
+	background-image: url('./img/stadium.jpg');
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
 }
 
-.another1{
-  position: absolute;
-  margin: 0;
-  overflow: hidden;  height: 100vh;
-  background: url("./img/play.jpg");
-  top: 0;
-  /* image left - varun */
-  left: 25vw;
-  width:48vw;
-  object-fit: contain; 
-  background-size: cover;
-  background-position: center; 
-
+.another1 {
+	position: absolute;
+	margin: 0;
+	overflow: hidden;
+	height: 100vh;
+	background: url('./img/play.jpg');
+	top: 0;
+	/* image left - varun */
+	left: 25vw;
+	width: 48vw;
+	object-fit: contain;
+	background-size: cover;
+	background-position: center;
 }
-@media (max-width:830px) {
-  .another1{
-/* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
-    width: 100%;
-    left: 0;
-  }
-  
+@media (max-width: 830px) {
+	.another1 {
+		/* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
+		width: 100%;
+		left: 0;
+	}
 }
 /* IT ENDS */
-
 
 .drop {
 	position: absolute;
@@ -83,7 +82,6 @@ background-position: center;
 		opacity: 0;
 	}
 }
-
 
 .backg-events {
 	background-image: url('./img/watchdogsgroup.jpg');
@@ -219,56 +217,54 @@ background-position: center;
 	opacity: 1;
 }
 
-  .container .card .content h3 {
-    font-size: 1em;
-    color: #fff;
-    z-index: 1;
-  }
-  .container .card .content p {
-    font-size: 1em;
-    color: #fff;
-    font-weight: 300;
-  }
-  .container .card .content a {
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: #fff;
-    color: black;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    box-shadow: 0.5px 15px rgba(0, 0, 0, 0.2);
-  }
+.container .card .content h3 {
+	font-size: 1em;
+	color: #fff;
+	z-index: 1;
+}
+.container .card .content p {
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
+}
+.container .card .content a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 15px;
+	background: #fff;
+	color: black;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	box-shadow: 0.5px 15px rgba(0, 0, 0, 0.2);
+}
 
-  /*Responsive Cards */
-  /* For Mobile Phones */
-  @media only screen and (max-width: 480px){
-	  .container{
-		  flex-direction: column;
-	  }
-	  .container .card{
-		  width: 60vw;
-		  margin-top: 30px;
-	  }
-  }
-  
-  /* For Tablets */
-  @media only screen and (max-width: 768px) and (min-width: 480px)  {
-	.container{
+/*Responsive Cards */
+/* For Mobile Phones */
+@media only screen and (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}
+	.container .card {
+		width: 60vw;
+		margin-top: 30px;
+	}
+}
+
+/* For Tablets */
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+	.container {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.container .card{
+	.container .card {
 		width: 50vw;
 		margin-top: 30px;
 	}
-	
-	.backg-events{
+
+	.backg-events {
 		height: 310vh;
 	}
-  }
-
-  
+}
