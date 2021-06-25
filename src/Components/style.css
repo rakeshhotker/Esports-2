@@ -3,10 +3,8 @@
 	padding: 0;
 }
 
-/*this is the styling for multiple rain drops + HOMEPAGE STYLING*/
 /* HOMEPAGE CSS */
 
-/* MULTIPLE IMAGE ON HOME */
 .body{
 margin: 0;
 overflow: hidden;  height: 100vh;
@@ -33,8 +31,8 @@ background-position: center;
 @media (max-width:830px) {
   .another1{
 /* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
-    width: 100%;
-    left: 0;
+    width: 98%;
+    left: 1%;
   }
   
 }
@@ -84,9 +82,8 @@ background-position: center;
 	}
 }
 
-
+/* 2nd page css */
 .backg-events {
-	/* background-image: url('./img/watchdogsgroup.jpg'); */
 	background: linear-gradient(to right, #000000, #434343); 
 	background-size: cover;
 	max-width: 100vw;
@@ -140,11 +137,11 @@ background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-top: 1px solid rgba(255, 255, 255, 0.5);
-	border-left: 1px solid rgba(255, 255, 255, 0.5);
-	backdrop-filter: blur(3px);
+	/* border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5); */
+	/* backdrop-filter: blur(3px); */
 	background-position: center;
-	opacity: 0.7;
+	opacity: 1;
 }
 .container .card:hover {
 	z-index: 3;
@@ -155,58 +152,58 @@ background-position: center;
 
 	background-size: cover;
 }
-#card-one:hover {
+/* #card-one:hover {
 	background-image: url('./img/fortnite.jpg');
-}
+} */
 #card-two {
 	background-image: url('./img/girl2.jpg');
 
 	background-size: cover;
 }
-#card-two:hover {
+/* #card-two:hover {
 	background-image: url('./img/girl2.jpg');
-}
+} */
 #card-three {
 	background-image: url('./img/cyberpunk.jpg');
 
 	background-size: cover;
 }
-#card-three:hover {
+/* #card-three:hover {
 	background-image: url('./img/cyberpunk.jpg');
-}
+} */
 #card-four {
 	/* transform: matrix(1,-0.3,.5,1,0,0); */
 	background-image: url('./img/girl1.jpg');
 	background-size: cover;
 	overflow: hidden;
 }
-#card-four:hover {
+/* #card-four:hover {
 	background-image: url('./img/girl1.jpg');
-}
+} */
 #card-five {
 	background-image: url('./img/watchdogs2.jpg');
 	background-size: cover;
 }
-#card-five:hover {
+/* #card-five:hover {
 	background-image: url('./img/watchdogs2.jpg');
-}
+} */
 #card-six {
 	background-image: url('./img/swordman.jpg');
 	background-size: cover;
 }
-#card-six:hover {
+/* #card-six:hover {
 	background-image: url('./img/swordman.jpg');
-}
+} */
 #card-seven {
 	background-image: url('./img/img2.jpg');
 	background-size: cover;
 }
-#card-seven:hover {
+/* #card-seven:hover {
 	background-image: url('./img/img2.jpg');
-}
-.container .card:hover {
+} */
+/* .container .card:hover {
 	opacity: 1;
-}
+} */
 .container .card .content {
 	padding: 20px;
 	text-align: center;
@@ -222,7 +219,7 @@ background-position: center;
 
   .container .card .content h3 {
     font-size: 2vw;
-    color: rgb(14, 10, 10);
+    color: rgb(255, 255, 255);
     z-index: 1;
   }
   .container .card .content p {
@@ -260,9 +257,10 @@ background-position: center;
 		  flex-direction: column;
 	  }
 	  .container .card{
-		  width: 60vw;
+		  width: 50vw;
 		  margin-top: 30px;
 	  }
+	  
   }
   
   /* For Tablets */
@@ -278,7 +276,7 @@ background-position: center;
 	}
 	
 	.backg-events{
-		height: 310vh;
+		height: 340vh;
 	}
   }
 
