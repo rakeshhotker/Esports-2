@@ -11,11 +11,11 @@ function Fotter() {
                     &copy; 2021 Activision Publishing, Inc. ACTIVISION, these games are trademarks of Activision Publishing, Inc. All other trademarks and trade names are property of their respective owners.
                     </p>
                     <ul className="sci">
-                    <li><a href="#"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id = "youtube"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id = "handshake"><i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id = "facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id = "insta"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#" id = "twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
                 <div className="quicklinks">
