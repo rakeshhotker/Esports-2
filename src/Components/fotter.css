@@ -15,12 +15,12 @@ footer{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 50px 100px;
-    background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.1) ), url('img/img1.jpg');
+    padding: 50px 80px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/dark2.jpg');
 
     background-position: center;
     background-size: cover;
-
+/* z-index: -4; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@ footer .container .aboutus{
 }
 footer .container  h2{
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -68,7 +68,8 @@ footer p{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: rgb(255, 255, 255);
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 0, 0,.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,11 +78,13 @@ footer p{
     border-radius: 4px;
 }
 .sci li a:hover{
-    background: rgb(0, 252, 218);
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 162, 255);
 }
 
 .sci li a .fa{
-    color: rgb(255, 5, 5);
+    /* ICONS CHANGED - VARUN */
+    color: rgb(255, 255, 255);
     font-size: 25px;
 }
 .quicklinks{
