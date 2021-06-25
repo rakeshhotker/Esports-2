@@ -47,9 +47,9 @@ function Navbar({ toggle }) {
 								duration={500}
 								spy={true}
 								exact='true'
-								offset={-80}
+								offset={-10}
 							>
-								Events
+								Games
 							</NavLinks>
 						</NavItem>
 						<NavItem>
@@ -59,7 +59,7 @@ function Navbar({ toggle }) {
 								duration={500}
 								spy={true}
 								exact='true'
-								offset={-80}
+								offset={-10}
 							>
 								News
 							</NavLinks>
@@ -71,9 +71,9 @@ function Navbar({ toggle }) {
 								duration={500}
 								spy={true}
 								exact='true'
-								offset={-80}
+								offset={-10}
 							>
-								SignUp
+								VR Mode
 							</NavLinks>
 						</NavItem>
 					</NavMenu>
@@ -84,7 +84,7 @@ function Navbar({ toggle }) {
 							duration={500}
 							spy={true}
 							exact='true'
-							offset={-80}
+							offset={-10}
 						>
 							SignIn
 						</NavBtnLink>
