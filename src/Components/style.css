@@ -11,7 +11,7 @@
 	margin: 0;
 	overflow: auto;
 	height: 110vh; /*i've{rakesh} increased it by 10*/
-	/* background-image: url('./img/stadium.jpg'); */
+	background-image: url('./img/rain.jpg');
 	object-fit: cover;
 	background-size: cover;
 	background-position: center;
