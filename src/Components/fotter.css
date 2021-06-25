@@ -15,8 +15,8 @@ footer{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 50px 100px;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ), url('img/dark2.jpg');
+    padding: 50px 80px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/dark2.jpg');
 
     background-position: center;
     background-size: cover;
@@ -40,7 +40,7 @@ footer .container .aboutus{
 }
 footer .container  h2{
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin-bottom: 15px;
 }

@@ -10,13 +10,13 @@ function Sidebar({isOpen,toggle}) {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="Events" onClick={toggle}>
-                        Events
+                        GAMES
                     </SidebarLink>
                     <SidebarLink to="News" onClick={toggle}>
-                        News
+                        NEWS
                     </SidebarLink>
                     <SidebarLink to="Login" onClick={toggle}>
-                        Login
+                        VR MODE
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
