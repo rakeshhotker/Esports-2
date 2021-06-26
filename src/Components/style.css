@@ -28,9 +28,11 @@
 	background-size: cover;
 	background-position: center;
 }
-@media (max-width: 830px) {
+/*play has no limits*/
+@media (max-width: 500px) {
 	.another1 {
 		/* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
+		object-fit: contain;
 		width: 98%;
 		left: 1%;
 	}
