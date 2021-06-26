@@ -83,6 +83,26 @@ footer p {
 #youtube:hover {
   background-color: rgb(255, 0, 0);
 }
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 80px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('img/dark2.jpg');
+
+    background-position: center;
+    background-size: cover;
+/* z-index: -4; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 #handshake:hover{
     background-color: rgb(155, 148, 148);
@@ -90,6 +110,55 @@ footer p {
 
 #facebook:hover {
   background-color: rgb(14, 111, 221);
+}
+footer .container .aboutus{
+    margin-right: 30px;
+}
+footer .container .aboutus{
+    width: 40%;
+}
+footer .container  h2{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: cyan;
+}
+footer p{
+    color: rgb(255, 255, 255);
+}
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 0, 0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sci li a:hover{
+    /* ICONS CHANGED - VARUN */
+    background: rgb(0, 162, 255);
 }
 
 #insta:hover {

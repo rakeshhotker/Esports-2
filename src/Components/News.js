@@ -12,7 +12,7 @@ function News() {
         <div className="allnews">
         <div className="slideshow">
             <div className="slideshow-item">
-                <img src={img1} />
+                <img src={img1} alt="" />
                 <div className="slideshow-item-text">
                     <h4>WORLD TOURNAMENT 2021 </h4>
                     <p>The registration to world 
@@ -23,7 +23,7 @@ function News() {
                 </div>
             </div>
             <div className="slideshow-item">
-                <img src={img2} />
+                <img src={img2} alt=""/>
                 <div className="slideshow-item-text">
                     <h4>TOURNAMENTS</h4>
                     <p>Participate in the world tournaments
@@ -33,7 +33,7 @@ function News() {
                 </div>
             </div>
             <div className="slideshow-item">
-                <img src={img3} />
+                <img src={img3} alt=""/>
                 <div className="slideshow-item-text">
                     <h4>GTA-5 ONLINE</h4>
                     <p>The new GTA 5 is out 
@@ -43,7 +43,7 @@ function News() {
                 </div>
             </div>
             <div className="slideshow-item">
-                <img src={img4} />
+                <img src={img4} alt=""/>
                 <div className="slideshow-item-text">
                     <h4>LEAGUE OF LEGENDS</h4>
                     <p>The new duo of Gon and Killua 

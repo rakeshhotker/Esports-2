@@ -34,15 +34,15 @@ function Fotter() {
                     <h2>Contact us</h2>
                     <ul className="info">
                     <li>
-                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-map-marker" aria-hidden="true"></i></span>
                         <span>Manhattan, located at 200 Park Avenue </span>
                     </li>
                     <li>
-                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-envelope-o" aria-hidden="true"></i></span>
                         <span>Riotgamer@gmail.com</span>
                     </li>
                     <li>
-                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span><i className="fa fa-phone" aria-hidden="true"></i></span>
                         <span>+11 9878 7768 44</span>
                     </li>
 
