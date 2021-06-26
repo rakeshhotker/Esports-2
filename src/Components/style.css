@@ -26,8 +26,9 @@ background-position: center;
   object-fit: contain; 
   background-size: cover;
   background-position: center; 
-
 }
+
+/* Play Has No Limits */
 @media (max-width:830px) {
   .another1{
 /* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */

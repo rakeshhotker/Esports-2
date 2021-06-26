@@ -1,15 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.footer-all{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    /* background: coral; */
+.footer-all {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  /* background: coral; */
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.1)),
+    url("img/img1.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .container .aboutus {
+  margin-right: 30px;
+}
+footer .container .aboutus {
+  width: 40%;
+}
+footer .container h2 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+  margin-bottom: 15px;
+}
+footer h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: cyan;
+}
+footer p {
+  color: rgb(255, 255, 255);
+}
+
+/* Changed Icons Hover Effect - Ayush */
+
+#youtube:hover {
+  background-color: rgb(255, 0, 0);
 }
 footer{
     position: relative;
@@ -30,7 +81,14 @@ footer .container{
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+}
 
+#handshake:hover{
+    background-color: rgb(155, 148, 148);
+}
+
+#facebook:hover {
+  background-color: rgb(14, 111, 221);
 }
 footer .container .aboutus{
     margin-right: 30px;
@@ -75,82 +133,109 @@ footer p{
     align-items: center;
     margin-right: 10px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 25px;
 }
 .sci li a:hover{
     /* ICONS CHANGED - VARUN */
     background: rgb(0, 162, 255);
 }
 
-.sci li a .fa{
-    /* ICONS CHANGED - VARUN */
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-}
-.quicklinks{
-    position: relative;
-    width: 25%;
+#insta:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+  }
 
+  #twitter:hover {
+    background: rgb(0, 162, 255);
+  }
+
+.sci li a .fa {
+  /* ICONS CHANGED - VARUN */
+  color: rgb(255, 255, 255);
+  font-size: 25px;
 }
-.quicklinks ul li{
-    list-style: none;
+.quicklinks {
+  position: relative;
+  width: 25%;
 }
-.quicklinks ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
+.quicklinks ul li {
+  list-style: none;
 }
-.quicklinks ul li a:hover{
-    color: rgb(255, 121, 121);
+.quicklinks ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quicklinks ul li a:hover {
+  color: rgb(170, 175, 175);
 }
 
-.contact-info{
-    width: calc(35% -60px);
-    margin-right: 0 !important;
+.contact-info {
+  width: calc(35% -60px);
+  margin-right: 0 !important;
 }
-.contact-info .info{
-position: relative;
-}
-
-.contact-info .info li{
-    display: flex;
-    margin-bottom: 16px;
+.contact-info .info {
+  position: relative;
 }
 
-.contact-info .info li span:nth-child(1){
-    color: rgb(255, 0, 0);
-    font-size: 20px;
-    margin-right: 10px;
+.contact-info .info li {
+  display: flex;
+  margin-bottom: 16px;
 }
 
-.contact-info .info li span{
-    color: rgb(255, 211, 255);
+.contact-info .info li span:nth-child(1) {
+  color: rgb(247, 109, 109);
+  font-size: 20px;
+  margin-right: 10px;
 }
 
-@media (max-width:900px) {
-    footer{
-        padding: 30px;
-
-    }
-    footer .container{
-        flex-direction: column;
-    }
-    footer .container .aboutus
-    {
-        margin-right: 0;
-        margin-bottom: 30px;
-        width: 100%;
-    }
-    footer .container .aboutus,
-    .quicklinks{
-        width: 100%;
-    }
-    
+.contact-info .info li span {
+  color: rgb(255, 211, 255);
 }
-@media (max-width:1326px) {
-    .contact-info{
-        margin-top: 30px !important;
-    }
-    
+
+@media (max-width: 900px) {
+  footer {
+    padding: 30px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .aboutus {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  footer .container .aboutus,
+  .quicklinks {
+    width: 100%;
+  }
+}
+@media (max-width: 1326px) {
+  .contact-info {
+    margin-top: 30px !important;
+  }
 }
