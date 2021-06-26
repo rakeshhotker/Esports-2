@@ -30,11 +30,11 @@
 }
 /*play has no limits*/
 @media (max-width: 500px) {
-	.another1 {
+	.another1 img {
 		/* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
-		object-fit: contain;
-		width: 98%;
-		left: 1%;
+		max-width: 100%;
+		height: auto;
+		/* left: 1%; */
 	}
 }
 /* IT ENDS */
@@ -123,6 +123,7 @@
 	display: flex;
 	justify-content: center;
 	max-width: 100vw;
+	height: inherit;
 	flex-wrap: wrap;
 	z-index: 1;
 }
