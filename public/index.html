@@ -25,10 +25,26 @@
 	<script type="text/javascript" src="vanilla-tilt.js"></script>
 
 	<script type="text/javascript">
-		VanillaTilt.init(document.querySelectorAll('.card'), {
-			max: 20,
-			speed: 100,
-		});
+		{
+			console.log(document.documentElement.clientWidth);
+			if (document.documentElement.clientWidth <= 500) {
+				console.log('is mobile');
+				VanillaTilt.init(document.querySelectorAll('.card'), {
+					max: null,
+					speed: null,
+				});
+			} else {
+				console.log('isnt mobile');
+				VanillaTilt.init(document.querySelectorAll('.card'), {
+					max: 20,
+					speed: 100,
+				});
+			}
+			// VanillaTilt.init(document.querySelectorAll('.card'), {
+			// 	max: 20,
+			// 	speed: 100,
+			// });
+		}
 	</script>
 	<script>
 		// RAIN DROP FUNCTION

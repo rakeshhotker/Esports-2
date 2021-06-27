@@ -23,18 +23,22 @@
 	background: url('./img/play.jpg');
 	top: 0;
 	left: 25vw;
-	width: 48vw;
+	width: 50vw;
 	object-fit: contain;
 	background-size: cover;
 	background-position: center;
 }
 /*play has no limits*/
-@media (max-width: 500px) {
-	.another1 img {
-		/* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
-		max-width: 100%;
-		height: auto;
-		/* left: 1%; */
+@media (max-width: 600px) {
+	.another1 {
+		/* CHANGED THE WIDTH FOR MOBILE SCREEN - RAKESH */
+		background: url('https://preview.redd.it/esvbfdt5nh451.png?width=960&crop=smart&auto=webp&s=bd66d541302b28c4d535f41b100f3fffed8fcc2d');
+		width: 100%;
+		left: 0;
+		height: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: top;
 	}
 }
 /* IT ENDS */
